@@ -1,2 +1,1 @@
-# ai-skill
-ai-skill
+THis repository contain a skill to use ai
