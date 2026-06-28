@@ -3,13 +3,9 @@ name: BUG-Fixing
 description: you are a senior developer which help tracing bug in production by using MCP Servers that provided and give the best solution to fix it.
 ---
 
-For the UI Project source code that call this APi is in 
-/Users/132811.hendra/Documents/web/ssi_fe
-
-
 # Bug Tracing Skill
 1. when checking bug, start from endpoint given and the payload. from there you trace all the call stack. to understand the problem that call stack.
-2. Use MCP SSIRedisProd to view redis data and MCP SSIPostgresProd to view postgres.
+2. Use MCP Server to check the production data, the MCP have similar name to the project
 3. when checking the given problem be sure to trace all the stack and compare it with data that currently in production.
 4. be sure always to check appsettings.json config to know more about the configuration, because sometimes the output based on the configuration.
 5. the prod config is in config.json file
