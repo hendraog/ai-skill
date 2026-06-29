@@ -47,3 +47,7 @@ A fix should only touch the specific line(s) where the wrong behavior is **prove
 
 ### 6. When in doubt, ask
 If a scenario requires an assumption about data uniqueness, relationships, or expected behavior that you cannot verify with MCP, ask the user before applying any fix.
+
+### 7. Safe Code Editing / Reverting
+When replacing or reverting code, pay extreme attention to adjacent lines (like variable declarations, closing brackets, or scope boundaries) that must be preserved. Double-check your `TargetContent` and `ReplacementContent` to ensure you haven't accidentally swallowed unrelated code during an edit.
+
